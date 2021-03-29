@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif; 
+}
+
+head,body{
+
+    background: url(pozadina.jpg) repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    text-shadow: 0 0.03rem 0.5rem rgba(0, 0, 0, 0.5);
+    
+}
+
+.kontInfo{
+    text-align: center;
+    font-size: larger;
+    
+
+}
+h1{
+    background: rgb(124, 4, 56);
+    background: radial-gradient(circle, rgb(124, 4, 56) 0%, rgba(148,187,233,1) 100%);
+    text-align: center;
+    color:#eee;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+.lab{
+    color:#12121f;
+    margin: 10px;
+}
+.labelaForma{
+    font-size: larger;
+    font-weight: bold;
+    color:rgb(60, 66, 74);
+}
+.unosPodataka,.headBeleske{
+    margin:20px;
+    color: rgb(42, 49, 58);
+    align-items: center;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.headBeleske
+{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.unosPodataka
+{
+    font-size: xx-large;
+
+}
+.labelaForma,.red{
+    color: rgb(42, 49, 58);
+    padding:2px;
+}
+.kontForma{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+}
+.kontForma > h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    font-size: x-large;
+}
+.presek{
+    width: 5px;
+    height: 500px;
+    background-color: rgb(42, 49, 58);
+    border-radius: 10px 10px 10px 10px;
+}
+.kontBeleske > h2{
+    text-align: center;
+    font-weight: bold;
+
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 5px rgb(42, 49, 58);
+    margin: 10px 10px 50px 10px;
+
+}
+input{
+    border-radius: 5px;
+    background-color:whitesmoke;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:6px;
+    padding-bottom: 6px;
+    font-size: medium;
+}
+.radioLabela{
+    color: rgb(42, 49, 58);
+    padding:20px;
+    font-size: 130%;
+    
+}
+.radioDugme{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border:solid 10px rgb(42, 49, 58);
+}
+.dugmenapravi{
+    text-shadow: 0 0.03rem 0.5rem rgba(0, 0, 0, 0.5);
+    color: rgb(0, 255, 0);
+    border-radius: 5px;
+    border: 3px solid  rgb(46, 24, 24);
+    /* background-color: #167e6da2; */
+    background: linear-gradient(0deg, rgba(34,193,195,0) 0%, rgba(253,45,245,0) 100%);
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: margin 0.9s;
+    transition: background-color 0.3s;
+    margin: 5px;
+
+}
+
+.dugmenapravi:hover{
+ 
+    background-color: rgba(54, 13, 45, 0.473);
+}
+.dugmenapravi:active{
+    background-color: rgb(255, 255, 255);
+}
+.dugmeAzuriraj{
+    text-shadow: 0 0.03rem 0.5rem rgba(0, 0, 0, 0.5);
+    color: rgb(251, 255, 0);
+    border-radius: 5px;
+    border: 3px solid  rgb(46, 24, 24);
+    /* background-color: #167e6da2; */
+    background: linear-gradient(0deg, rgba(34,193,195,0) 0%, rgba(253,45,245,0) 100%);
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: margin 0.9s;
+    transition: background-color 0.3s;
+    margin: 5px;
+
+}
+.dugmeAzuriraj:hover{
+    
+    background-color: rgba(54, 13, 45, 0.473);
+
+}
+.dugmeAzuriraj:active{
+    background-color: rgb(255, 255, 255);
+}
+.dugmeObrisi{
+    /* text-shadow: 0 0.03rem 0.5rem rgba(0, 0, 0, 0.5); */
+    color: rgb(196, 0, 0);
+    border-radius: 5px;
+    border: 3px solid  rgb(46, 24, 24);
+    /* background-color: #167e6da2; */
+    background: linear-gradient(0deg, rgba(34,193,195,0) 0%, rgba(253,45,245,0) 100%);
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: margin 0.9s;
+    transition: background-color 0.3s;
+    margin: 5px;
+
+}
+.dugmeObrisi:hover{
+    
+    background-color: rgba(54, 13, 45, 0.473);
+}
+.dugmeObrisi:active{
+    background-color: rgb(255, 255, 255);
+}
+.dugmePronadji{
+    text-shadow: 0 0.03rem 0.5rem rgba(0, 0, 0, 0.5);
+    color: rgb(7, 219, 219);
+    border-radius: 5px;
+    border: 3px solid  rgb(46, 24, 24);
+    /* background-color: #167e6da2; */
+    background: linear-gradient(0deg, rgba(34,193,195,0) 0%, rgba(253,45,245,0) 100%);
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: margin 0.9s;
+    transition: background-color 0.3s;
+    margin: 5px;
+
+}
+.dugmePronadji:hover{
+    
+    background-color: rgba(54, 13, 45, 0.473);
+}
+.dugmePronadji:active{
+    background-color: rgb(255, 255, 255);
+}
+.kontBeleske{
+    display: flex;
+    flex-direction: column;
+    padding:10px;   
+    
+}
+.beleska{
+    border: 5px solid rgb(42, 49, 58);
+    flex: 1 10px 10px;
+    padding: 20px;
+    margin: 4px;
+    text-align: center;
+    font-size:50px;
+    color: rgb(42, 49, 58);
+    cursor: pointer;
+    border-radius: 20%;
+    /* height: 80px;
+    width: 80px; */
+    filter:drop-shadow(0 0 2px rgb(0, 0, 0));
+    transition: margin 0.2s;
+    transition: opacity .5s ease;
+
+}
+.beleska:hover{
+    margin: 2px;
+}
+.red{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.ime
+{
+    text-transform: uppercase;
+}
+.pozicija
+{
+    background-color: blue;
+}
